@@ -1,0 +1,339 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Hedaer CSS */
+#header {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 18px 40px;
+  justify-content: space-between;
+}
+.header-left img {
+  width: 108px;
+}
+
+#header a {
+  text-decoration: none;
+  color: #000;
+  margin-left: 20px;
+  font-size: 14px;
+}
+
+#header a:hover {
+  border-bottom: 2px solid #000;
+}
+
+.header-left,
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.header-right {
+  justify-content: end;
+}
+
+/* Main CSS */
+#main {
+  height: 500px;
+  background-image: url("images/ms-header-back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.main-left,
+.main-right {
+  float: left;
+  width: 35%;
+  height: 500px;
+}
+
+.main-left {
+  padding: 110px 100px;
+}
+
+.main-left * {
+  margin-top: 20px;
+}
+
+.main-left h1 {
+  color: #fff;
+  font-size: 26px;
+  font-weight: 550;
+}
+
+.main-left p {
+  color: #fff;
+}
+
+.main-left a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #0067b8;
+  padding: 10px;
+  color: #fff;
+}
+
+.main-left a:hover {
+  background-color: #08436f;
+}
+
+/* Section Arrow CSS */
+
+.main-pagination {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.main-pagination input {
+  color: #000;
+}
+
+.main-icon {
+  color: #000;
+  margin: 0px 30px;
+  font-size: 20px;
+}
+
+/* Logo Section CSS */
+.logo-section__items {
+  list-style: none;
+  text-align: center;
+}
+
+.logo-section__item {
+  display: inline-block;
+  padding: 45px;
+}
+
+.logo-section__item * {
+  display: block;
+}
+
+.logo-section__item img {
+  display: inline;
+  text-align: center;
+}
+
+.logo-section__link {
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+/* Cards Section CSS */
+#cards-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 30px;
+}
+
+.card {
+  width: 20%;
+}
+
+.card * {
+  margin-top: 7px;
+}
+
+.card > h3 {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card a {
+  display: inline-block;
+  height: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.card a:hover {
+  border-bottom: 2px solid rgb(25, 25, 93);
+}
+
+/* Info Section CSS */
+.info-section-container {
+  margin-top: 95px;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: 0px;
+}
+#info-section {
+  height: 500px;
+  background-image: url("images/center_slide.webp");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom bottom;
+}
+
+.info-section-left,
+.info-section-right {
+  float: left;
+  width: 40%;
+}
+
+.info-section-left {
+  padding: 110px 100px;
+}
+
+.info-section-left * {
+  margin-top: 20px;
+}
+
+.info-section-left h1 {
+  color: #000;
+  font-size: 30px;
+  font-weight: 550;
+}
+
+.info-section-left p {
+  color: #000;
+}
+
+.info-section-left a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #0067b8;
+  padding: 10px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.info-section-left a:hover {
+  background-color: #08436f;
+}
+
+/* Business Section CSS */
+#business-section-title {
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: 26px;
+}
+#business-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 30px;
+}
+
+/* Last Section CSS */
+#last-section {
+  margin-top: 45px;
+  margin-left: 26px;
+}
+
+.last-section-inline-block {
+  display: inline-block;
+}
+
+.last-section-link {
+  margin-left: 20px;
+  color: #000;
+}
+
+.last-section-icon {
+  font-size: 20px;
+}
+
+/* Back to Top Button CSS */
+#back-to-top-button {
+  display: inline-block;
+  width: 130px;
+  background-color: rgb(215, 207, 207);
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  position: fixed;
+  padding: 10px;
+  bottom: 15px;
+  right: 15px;
+}
+
+#back-to-top-button:hover {
+  background-color: rgb(242, 222, 222);
+  box-shadow: rgba(5, 20, 35, 0.2) 0px 8px 24px;
+  transition: box-shadow 0.6s;
+  transition: 0.5s;
+}
+
+/* Footer CSS */
+footer {
+  background-color: rgb(217, 215, 215);
+  height: 350px;
+  margin-top: 50px;
+}
+.footer-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding: 20px 40px;
+  margin-bottom: 15px;
+}
+
+.footer-top-item a {
+  display: block;
+  height: 20px;
+  margin-top: 10px;
+  font-size: 13px;
+  color: #000;
+  text-decoration: none;
+}
+
+.footer-top-item a:hover {
+  border-bottom: 2px solid #000;
+}
+
+.footer-bottom {
+  display: flex;
+  width: 1100px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.footer-bottom a {
+  text-decoration: none;
+  color: #000;
+  font-size: 13px;
+}
+
+.footer-bottom p {
+  color: #000;
+  font-size: 13px;
+}
+
+.footer-bottom a:hover {
+  border-bottom: 2px solid #000;
+}
+
+.footer-bottom a {
+  margin-left: 15px;
+}
+
+.footer-bottom p {
+  margin-left: 15px;
+}
+
+.footer-bottom-left,
+.footer-bottom-right {
+  display: flex;
+  align-items: center;
+}
+
+.footer-bottom-right {
+  justify-content: end;
+}
